@@ -1195,7 +1195,7 @@ with gr.Blocks(title="KPOPEASYGUI 🔊",theme=gr.themes.Base(primary_hue="rose",
                 paypal.me/lesantillan
                 """
                 )
-                        with gr.TabItem(i18n("训练")):
+        with gr.TabItem(i18n("训练")):
             with gr.Row():
                 with gr.Column():
                     exp_dir1 = gr.Textbox(label=i18n("输入实验名"), value="My-Voice")
